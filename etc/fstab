@@ -28,3 +28,4 @@
 #LABEL=swap             none            swap            sw              0 0
 #/dev/cdrom             /mnt/cdrom      auto            noauto,ro       0 0
 /dev/nvme0n1p1          /boot/efi       vfat            noauto,noatime  1 2
+bpool/BOOT/gentoo       /boot           zfs             nodev,relatime  1 0
