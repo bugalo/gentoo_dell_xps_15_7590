@@ -1,0 +1,13 @@
+[Unit]
+Description=Load %I encryption keys
+Before=systemd-user-sessions.service
+Before=zfs-mount.service
+After=zfs-import.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/usr/bin/bash -c 'systemd-ask-password "Encrypted ZFS password for %I" --no-tty  | zfs load-key %I'
+
+[Install]
+WantedBy=zfs-mount.service
