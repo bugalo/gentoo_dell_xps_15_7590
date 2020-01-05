@@ -1,0 +1,13 @@
+[Unit]
+Description=Load rpool/ROOT/home encryption keys
+Before=systemd-user-sessions.service
+Before=zfs-mount.service
+After=zfs-import.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+ExecStart=/bin/bash -c 'systemd-ask-password "Encrypted ZFS password for rpool/ROOT/home" --no-tty  | zfs load-key rpool/ROOT/home'
+
+[Install]
+WantedBy=zfs-mount.service
