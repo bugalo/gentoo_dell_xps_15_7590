@@ -1,5 +1,5 @@
 # /etc/fstab: static file system information.
-#
+# 
 # noatime turns off atimes for increased performance (atimes normally aren't 
 # needed); notail increases performance of ReiserFS (at the expense of storage 
 # efficiency).  It's safe to drop the noatime options if you want and to 
@@ -11,7 +11,7 @@
 # See the manpage fstab(5) for more information.
 #
 
-# <fs>                  <mountpoint>    <type>          <opts>                  <dump/pass>
+# <fs>                  <mountpoint>            <type>          <opts>                                                  <dump/pass>
 
 # NOTE: If your BOOT partition is ReiserFS, add the notail option to opts.
 #
@@ -23,6 +23,7 @@
 #       documentation for details on setting a label. To obtain the UUID, use
 #       the blkid(8) command.
 
-/dev/nvme0n1p1          /boot/efi       vfat            noauto,noatime          1 2
-bpool/BOOT/gentoo       /boot           zfs             noauto,nodev,relatime   1 2
-tmpfs                   /var/lock       tmpfs           rw,nodev,nosuid,size=2G 0 0
+/dev/nvme0n1p1          /boot/efi               vfat            noauto,noatime                                          1 2
+bpool/BOOT/gentoo       /boot                   zfs             noauto,nodev,relatime                                   1 2
+tmpfs                   /var/lock               tmpfs           rw,nodev,nosuid,size=2G                                 0 0
+tmpfs                   /var/tmp/portage        tmpfs           size=24G,uid=portage,gid=portage,mode=775,noatime       0 0
