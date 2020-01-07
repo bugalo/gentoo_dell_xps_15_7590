@@ -1,0 +1,9 @@
+SUBSYSTEM!="usb", GOTO="power_usb_rules_end"
+ACTION!="add", GOTO="power_usb_rules_end"
+
+KERNEL=="[0-9]*:*", WAIT_FOR_SYSFS="bInterfaceProtocol"
+PROGRAM="/bin/sleep 0.1"
+
+ATTR{power/level}=="*", ATTR{power/level}="auto"
+
+LABEL="power_usb_rules_end"
