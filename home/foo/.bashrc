@@ -19,6 +19,7 @@ fi
 
 # Incremental search.
 # See: https://sites.google.com/site/hashemian/home/tips-and-tricks/the-blog/amoreconvenientincrementalsearchinterminalbashlinux
+# https://sites.google.com/site/hashemian/home/tips-and-tricks/convenient-terminal-search
 export HISTFILESIZE=10000		# Max number of lines in HISTFILE
 export HISTSIZE=10000			# Number of lines to save from current session
 shopt -s histappend				# Append to history file rather than overwriting
