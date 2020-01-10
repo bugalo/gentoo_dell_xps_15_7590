@@ -26,4 +26,3 @@
 /dev/nvme0n1p1          /boot/efi               vfat            noauto,noatime                                          1 2
 bpool/BOOT/gentoo       /boot                   zfs             noauto,nodev,relatime                                   1 2
 tmpfs                   /var/lock               tmpfs           rw,nodev,nosuid,size=2G                                 0 0
-## tmpfs                   /var/tmp/portage        tmpfs           size=24G,uid=portage,gid=portage,mode=775,noatime       0 0
