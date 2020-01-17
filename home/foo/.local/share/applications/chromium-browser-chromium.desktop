@@ -1,0 +1,10 @@
+[Desktop Entry]
+Name=Chromium
+Type=Application
+Comment=Open-source version of Google Chrome web browser
+Exec=chromium-browser --incognito %U
+TryExec=chromium-browser
+Icon=chromium-browser
+Categories=Network;WebBrowser;
+StartupWMClass=chromium-browser
+MimeType=x-scheme-handler/unknown;x-scheme-handler/about;text/html;text/xml;application/xhtml+xml;x-scheme-handler/http;x-scheme-handler/https;x-scheme-handler/ftp;x-scheme-handler/mailto;x-scheme-handler/webcal;
