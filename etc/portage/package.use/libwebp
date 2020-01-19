@@ -1,1 +1,1 @@
-media-libs/libwebp cpu_flags_x86_sse4_1
+media-libs/libwebp CPU_FLAGS_X86: sse4_1

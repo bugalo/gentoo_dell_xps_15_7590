@@ -1,1 +1,1 @@
-media-libs/openal cpu_flags_x86_sse4_1 oss portaudio
+media-libs/openal oss portaudio CPU_FLAGS_X86: sse4_1 

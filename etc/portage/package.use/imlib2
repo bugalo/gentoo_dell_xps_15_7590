@@ -1,1 +1,1 @@
-media-libs/imlib2 cpu_flags_x86_mmx
+media-libs/imlib2 CPU_FLAGS_X86: mmx

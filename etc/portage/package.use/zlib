@@ -1,1 +1,1 @@
-sys-libs/zlib abi_x86_32 minizip
+sys-libs/zlib minizip ABI_X86: 32 

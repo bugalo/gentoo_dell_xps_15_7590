@@ -1,1 +1,1 @@
-sci-libs/fftw cpu_flags_x86_avx cpu_flags_x86_avx2 cpu_flags_x86_fma3 cpu_flags_x86_fma4 quad threads
+sci-libs/fftw quad threads CPU_FLAGS_X86: avx avx2 fma3 fma4

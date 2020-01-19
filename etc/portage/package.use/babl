@@ -1,1 +1,1 @@
-media-libs/babl cpu_flags_x86_f16c cpu_flags_x86_sse3 cpu_flags_x86_sse4_1
+media-libs/babl CPU_FLAGS_X86: f16c sse3 sse4_1

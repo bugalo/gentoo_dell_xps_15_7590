@@ -1,1 +1,1 @@
-dev-libs/libsodium cpu_flags_x86_aes cpu_flags_x86_sse4_1
+dev-libs/libsodium CPU_FLAGS_X86: aes sse4_1

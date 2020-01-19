@@ -1,1 +1,2 @@
-sys-devel/clang -llvm_targets_AMDGPU -llvm_targets_BPF
+sys-devel/clang LLVM_TARGETS: -AMDGPU -BPF
+=sys-devel/clang-7.1.0 PYTHON_TARGETS: python2_7 PYTHON_SINGLE_TARGET: -* python2_7

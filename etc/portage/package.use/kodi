@@ -1,1 +1,2 @@
 media-tv/kodi airplay bluray nfs samba -X
+=media-tv/kodi-18.5-r1 PYTHON_TARGETS: python2_7 PYTHON_SINGLE_TARGET: -* python2_7

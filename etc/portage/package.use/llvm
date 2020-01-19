@@ -1,1 +1,1 @@
-sys-devel/llvm -llvm_targets_AMDGPU -llvm_targets_BPF
+sys-devel/llvm LLVM_TARGETS: -AMDGPU -BPF

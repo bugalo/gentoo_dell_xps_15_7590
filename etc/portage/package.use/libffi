@@ -1,2 +1,2 @@
-virtual/libffi abi_x86_32
-dev-libs/libffi abi_x86_32
+virtual/libffi ABI_X86: 32
+dev-libs/libffi ABI_X86: 32

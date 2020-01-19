@@ -1,1 +1,1 @@
-x11-libs/pixman cpu_flags_x86_ssse3
+x11-libs/pixman CPU_FLAGS_X86: ssse3

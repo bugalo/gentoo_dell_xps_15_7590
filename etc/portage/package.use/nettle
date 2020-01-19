@@ -1,1 +1,1 @@
-dev-libs/nettle cpu_flags_x86_aes
+dev-libs/nettle CPU_FLAGS_X86: aes
