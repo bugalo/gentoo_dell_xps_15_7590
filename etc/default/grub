@@ -18,7 +18,7 @@ GRUB_DISTRIBUTOR="Gentoo"
 #GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="dozfs real_root=ZFS=rpool/ROOT/gentoo usbcore.quirks=0bda:8153:k"
+GRUB_CMDLINE_LINUX="dozfs keymap=es real_root=ZFS=rpool/ROOT/gentoo usbcore.quirks=0bda:8153:k"
 #
 # Examples:
 #
