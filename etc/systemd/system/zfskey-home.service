@@ -7,7 +7,7 @@ After=zfs-import.target
 [Service]
 Type=oneshot
 RemainAfterExit=yes
-ExecStart=/bin/bash -c 'systemd-ask-password "Encrypted ZFS password for rpool/ROOT/home" --no-tty  | zfs load-key rpool/ROOT/home'
+ExecStart=/bin/bash -c 'until (systemd-ask-password "Encrypted ZFS password for rpool/ROOT/home" --no-tty  | zfs load-key rpool/ROOT/home ); do echo "Wrong password. Try again!"; done'
 
 [Install]
 WantedBy=zfs-mount.service
