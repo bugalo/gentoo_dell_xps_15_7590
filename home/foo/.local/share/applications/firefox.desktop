@@ -1,7 +1,7 @@
 [Desktop Entry]
 Name=Aurora
 Comment=Web Browser
-Exec=firefox --private-window %u
+Exec=GDK_BACKEND=wayland MOZ_USE_XINPUT2="1" firefox --private-window %u
 Icon=aurora
 Terminal=false
 Type=Application
