@@ -24,3 +24,6 @@ export HISTFILESIZE=10000		# Max number of lines in HISTFILE
 export HISTSIZE=10000			# Number of lines to save from current session
 shopt -s histappend				# Append to history file rather than overwriting
 export HISTCONTROL=erasedups	# Don't store duplicate commands
+
+# Allow root to launch x window applications:
+xhost local:root
