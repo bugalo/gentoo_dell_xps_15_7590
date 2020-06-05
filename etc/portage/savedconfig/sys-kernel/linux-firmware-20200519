@@ -971,7 +971,7 @@ intel/ibt-20-1-3.sfi
 # iwlwifi-QuZ-a0-jf-b0-53.ucode
 # iwlwifi-QuZ-a0-jf-b0-55.ucode
 # iwlwifi-cc-a0-46.ucode
-iwlwifi-cc-a0-48.ucode
+# iwlwifi-cc-a0-48.ucode
 iwlwifi-cc-a0-50.ucode
 iwlwifi-cc-a0-53.ucode
 iwlwifi-cc-a0-55.ucode
