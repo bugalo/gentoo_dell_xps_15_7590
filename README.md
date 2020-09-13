@@ -6,3 +6,5 @@ Features:
   OLED screen brightness control.
   Nvidia graphics card not working yet.
 Work in progress.
+
+See: https://wiki.gentoo.org/wiki/User:Bugalo/Dell_XPS_15_7590
