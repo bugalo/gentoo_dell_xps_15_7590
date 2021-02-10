@@ -1,0 +1,12 @@
+# Remove files that shall not be installed from this list.
+i915/kbl_guc_49.0.1.bin
+i915/kbl_huc_4.0.0.bin
+i915/kbl_dmc_ver1_04.bin
+intel/ibt-20-1-4.sfi
+intel/ibt-20-1-3.sfi
+iwlwifi-cc-a0-55.ucode
+iwlwifi-cc-a0-59.ucode
+rtl_nic/rtl8153b-2.fw
+rtl_nic/rtl8153a-4.fw
+rtl_nic/rtl8153a-3.fw
+rtl_nic/rtl8153a-2.fw
