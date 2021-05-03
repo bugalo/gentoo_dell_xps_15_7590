@@ -18,7 +18,8 @@ GRUB_DISTRIBUTOR="Gentoo"
 #GRUB_TIMEOUT_STYLE=menu
 
 # Append parameters to the linux kernel command line
-GRUB_CMDLINE_LINUX="dozfs keymap=es real_root=ZFS=rpool/ROOT/gentoo usbcore.quirks=0bda:8153:k"
+GRUB_CMDLINE_LINUX="dozfs keymap=es real_root=ZFS=rpool/ROOT/gentoo usbcore.quirks=0bda:8153:k usbhid.quirks=0x03eb:0x0001:0x00000004"
+# GRUB_CMDLINE_LINUX="dozfs crypt_root=ZFS=rpool/ROOT/gentoo real_root=ZFS=rpool/ROOT/gentoo"
 #
 # Examples:
 #
@@ -30,6 +31,8 @@ GRUB_CMDLINE_LINUX="dozfs keymap=es real_root=ZFS=rpool/ROOT/gentoo usbcore.quir
 
 # Append parameters to the linux kernel command line for non-recovery entries
 #GRUB_CMDLINE_LINUX_DEFAULT=""
+# GRUB_CMDLINE_LINUX_DEFAULT='acpi_rev_override=5 modprobe.blacklist=nvidia nvidia.modeset=0 pcie_port_pm=off acpi_osi="Windows 2009"'
+GRUB_CMDLINE_LINUX_DEFAULT='acpi_rev_override=5 nvidia.modeset=0 pcie_port_pm=off acpi_osi="Windows 2009"'
 
 # Uncomment to disable graphical terminal (grub-pc only)
 #GRUB_TERMINAL=console
@@ -71,3 +74,6 @@ GRUB_CMDLINE_LINUX="dozfs keymap=es real_root=ZFS=rpool/ROOT/gentoo usbcore.quir
 # This is useful, for example, to allow users who can't see the screen
 # to know when they can make a choice on the menu.
 #GRUB_INIT_TUNE="60 800 1"
+
+# Added by me: enable os-prober
+GRUB_DISABLE_OS_PROBER=false
