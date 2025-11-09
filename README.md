@@ -7,4 +7,4 @@ Features:
   Nvidia graphics card not working yet.
 Work in progress.
 
-See: https://wiki.gentoo.org/wiki/User:Bugalo/Dell_XPS_15_7590
+See: [https://wiki.gentoo.org/wiki/User:Bugalo/Dell_XPS_15_7590](https://wiki.gentoo.org/wiki/User:Bugalo/Dell_Pro_Max_16_(MC16255)_(2025))
